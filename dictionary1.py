@@ -1,109 +1,109 @@
-# # # """
-# # # Sana 05:03:2026 yil
+# """
+# Sana 05:03:2026 yil
 
-# # # Ustoz: Anvar Narzullayev
+# Ustoz: Anvar Narzullayev
 
-# # # Mavzu: Working with a dictionary
+# Mavzu: Working with a dictionary
 
-# # # """
+# """
 
-# # # name = {  
+# name = {  
         
-# # #         "name":"Abdulloh",
+#         "name":"Abdulloh",
         
-# # #         "age":"21",
+#         "age":"21",
         
-# # #         "birth":"2005"
+#         "birth":"2005"
         
-# # #         }
+#         }
 
-# # # for key, value in name.items():
+# for key, value in name.items():
     
-# # #     print("Kalit:", key )
+#     print("Kalit:", key )
     
-# # #     print("Qiymat:", value)
+#     print("Qiymat:", value)
     
-# # #     print("\n")        
+#     print("\n")        
     
-# # udata = {  
+udata = {  
     
-# #     'user':'device',
+    'user':'device',
              
-# #     'useer':'devicee', 
+    'useer':'devicee', 
 
-# #     'useeer':'deviceee'
+    'useeer':'deviceee'
     
-# #                }
+               }
 
-# # # for u, d in user_device.items():
+# for u, d in user_device.items():
     
-# # #     print("Nomi:", u.title() )
+#     print("Nomi:", u.title() )
     
-# # #     print("Qurilmasi:", d.title() )
+#     print("Qurilmasi:", d.title() )
 
-# # #     print("\n") 
+#     print("\n") 
 
-# # print("Foydalanuvchi nomi:")
+print("Foydalanuvchi nomi:")
 
-# # for i in udata:
+for i in udata:
     
-# #     print(i.title())
+    print(i.title())
     
 
-# # shop = {
+shop = {
         
-# #         'apple':'15k',
+        'apple':'15k',
         
-# #         'banana':'12k',
+        'banana':'12k',
         
-# #         'grape':'10k',
+        'grape':'10k',
         
-# #         'peach':'25k',
+        'peach':'25k',
         
-# #         'apricot':'5k'
+        'apricot':'5k'
         
-# #         }
+        }
 
-# # list = ['peach', 'apple', 'uzum', 'anor']
+list = ['peach', 'apple', 'uzum', 'anor']
 
 
-# # for i in shop:
+for i in shop:
     
-# #     if i in list:
+    if i in list:
             
-# #         print(i.title(), shop[i])
+        print(i.title(), shop[i])
         
-# # for b in list:
+for b in list:
     
-# #     if b not in shop:
+    if b not in shop:
         
-# #         print("Uzr do'konimizda", b, "yo'q edi")
+        print("Uzr do'konimizda", b, "yo'q edi")
     
-# # for i in sorted(shop):
+for i in sorted(shop):
     
-# #     print(i.title())
+    print(i.title())
 
-# # print(shop.values())
+print(shop.values())
 
-# udevice = {
+udevice = {
     
-#     'user':'iphone',
+    'user':'iphone',
     
-#     'useer':'galaxy',
+    'useer':'galaxy',
     
-#     'useeer':'nokia',
+    'useeer':'nokia',
     
-#     'useeeer':'galaxy',
+    'useeeer':'galaxy',
     
-#     'useeeeer':'iphone'
+    'useeeeer':'iphone'
     
-#     }
+    }
 
-# print("Foydalanuvchilarimiz foydalanadigan qurrilmalar nomi:")
+print("Foydalanuvchilarimiz foydalanadigan qurrilmalar nomi:")
 
-# for i in set(udevice.values()):
+for i in set(udevice.values()):
     
-#     print(i.title())
+    print(i.title())
 
 toy = { "ball", "car", "ball" }
 
