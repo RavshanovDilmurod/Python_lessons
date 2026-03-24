@@ -6,109 +6,109 @@ Ustoz: Anvar Narzullayev
 Mazvu: Input va While sikli
 
 """
-# son = 1
+son = 1
 
-# while son <= 10:
+while son <= 10:
          
-#     print(son**2,"\n")
+    print(son**2,"\n")
    
-#     son+=1
+    son+=1
 
 # Foydalanuvchi kiritgan sonni kvadratini chiqaradigan dastur
 
-# print("Kiritgan soningizni kvadratini chiqarib beradigan dasturga xush kelibsiz")
+print("Kiritgan soningizni kvadratini chiqarib beradigan dasturga xush kelibsiz")
 
-# savol = "Istalgan son kiriting:"
+savol = "Istalgan son kiriting:"
 
-# savol += " ( Dasturni to'xtatish uchun exit deb yozing ) " 
+savol += " ( Dasturni to'xtatish uchun exit deb yozing ) " 
 
-# i = ""
+i = ""
 
-# while i !="exit":
+while i !="exit":
     
-#     i = input(savol)
+    i = input(savol)
 
-#     if i !="exit":
+    if i !="exit":
 
-#        print(float(i)**2)
+       print(float(i)**2)
         
-# print("Dastur tugadi.")        
+print("Dastur tugadi.")        
   
 # Foydalanuvchi kiritgan sonni kvadratini chiqaradigan dastur
 
-# print("Kiritgan soningizni kvadratini chiqarib beradigan dasturga xush kelibsiz")
+print("Kiritgan soningizni kvadratini chiqarib beradigan dasturga xush kelibsiz")
 
-# savol = "Istalgan son kiriting:"
+savol = "Istalgan son kiriting:"
 
-# savol += "( Dasturni to'xtatish uchun exit deb yozing )" 
+savol += "( Dasturni to'xtatish uchun exit deb yozing )" 
 
-# i = True
+i = True
 
-# while i:
+while i:
     
-#     i = input(savol)
+    i = input(savol)
 
-#     if i =="exit":
+    if i =="exit":
         
-#        i = False
+       i = False
        
-#     else:
+    else:
 
-#        print(float(i)**2)
+       print(float(i)**2)
         
-# print("Dastur tugadi.")      
+print("Dastur tugadi.")      
 
          # break-Bu siklni to'xtatadigan buyruq
 
-# print("Kiritgan soningizni kvadratini chiqarib beradigan dasturga xush kelibsiz")
+print("Kiritgan soningizni kvadratini chiqarib beradigan dasturga xush kelibsiz")
 
-# savol = "Istalgan son kiriting:"
+savol = "Istalgan son kiriting:"
 
-# savol += "( Dasturni to'xtatish uchun exit deb yozing )" 
+savol += "( Dasturni to'xtatish uchun exit deb yozing )" 
 
-# i = ""
+i = ""
 
-# while True:
+while True:
     
-#     i = input(savol)
+    i = input(savol)
     
-#     if i =="exit":
+    if i =="exit":
     
-#         break
+        break
     
-#     else:
+    else:
         
-#         print(float(i)**2)
+        print(float(i)**2)
         
-# print("Dastur tugadi.")     
+print("Dastur tugadi.")     
 
         # for siklida breakni qo'llash
         
-# num = list(range(0,11))
+num = list(range(0,11))
 
-# for i in num:
+for i in num:
     
-#     if i == 5:
+    if i == 5:
         
-#         break
+        break
     
-#     else:
+    else:
     
-#         print(i, "sonining kvadrati ", i**2)
+        print(i, "sonining kvadrati ", i**2)
         
         # continue - bu siklda 1ta qadam tashlab ketish operatori        
         
-# num = list(range(0,11))
+num = list(range(0,11))
 
-# for i in num:
+for i in num:
      
-#      if i == 5:
+     if i == 5:
          
-#          continue
+         continue
           
-#      else:
+     else:
      
-#          print(i, "sonining kvadrati ", i**2)       
+         print(i, "sonining kvadrati ", i**2)       
         
         
         
