@@ -40,3 +40,5 @@ mashina = cars.pop(2)
 
 
 
+
+
