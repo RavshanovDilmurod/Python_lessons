@@ -108,7 +108,9 @@ for i in num:
           
      else:
      
-         print(i, "sonining kvadrati ", i**2)       
+         print(i, "sonining kvadrati ", i**2)
+
+#Input          
         
         
         
