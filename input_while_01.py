@@ -134,17 +134,17 @@ Mazvu: Input va While sikli
 """
 # input
 
-ism = input("Ismingizni kiriting ")
+name = input("Ismingizni kiriting:\n")
 
-savol = f"Assalomu aleykum, {ism.title()} yoshingiz nechchida ? "
+question = f"Assalomu aleykum {name.title()} yoshingiz nechchida ?\n"
 
-yosh = input(savol)
+age = input(question)
 
-yosh = int(yosh)
+age = int(age)
 
-data = f"Ismingiz: {ism.title()},\nYoshingiz: {yosh}"
+user_data = f"Ismingiz: {name.title()},\nYoshingiz: {age}"
 
-print(data)
+print(user_data)
         
         
         
