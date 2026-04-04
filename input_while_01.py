@@ -146,10 +146,4 @@ user_data = f"Ismingiz: {name.title()},\nYoshingiz: {age}"
 
 print(user_data)
 
-
-
-
-
-
-        
         
