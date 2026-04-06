@@ -1,7 +1,35 @@
-# -*- coding: utf-8 -*-
 """
-Created on Sun Mar 15 08:48:49 2026
+06:04:26 Yil
 
-@author: Admin
+Mavzu: While , Ro'yhat va lug'atlar
+
+Ustoz: Anvar Narzullayev
+
 """
+print("Do'stlaringizni ro'yhatini tuzamiz :)")
 
+names = []
+
+n = 1
+
+while True:
+
+    question = f"{n}-do'stingizni ismini kiriting: "
+
+    name = input(question)
+
+    names.append(name)
+
+    again = input("Yana ism kiritasizmi ? Ha/Yo'q ")
+
+    n += 1
+
+    if again != "Ha":
+
+        break
+
+print("Do'stlaringizni ro'yhati:")
+
+for name in names:
+
+    print(name.title())
