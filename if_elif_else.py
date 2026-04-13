@@ -1,4 +1,4 @@
-son = float(input("son kiriting:"))
+son = float(input("son kiriting: "))
 
 ildiz = son**0.5
 
