@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89da6a55-3d24-4de2-be81-eadd12d40227" name="Changes" comment="" />
+    <list default="true" id="89da6a55-3d24-4de2-be81-eadd12d40227" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Birinchi_dastur_print.py" beforeDir="false" afterPath="$PROJECT_DIR$/first_print.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Nesting.py" beforeDir="false" afterPath="$PROJECT_DIR$/Nesting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list_ro'yhatlar.py" beforeDir="false" afterPath="$PROJECT_DIR$/list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sonlar.py" beforeDir="false" afterPath="$PROJECT_DIR$/numbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuples.py.py" beforeDir="false" afterPath="$PROJECT_DIR$/tuples.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,12 +54,14 @@
     "Python.While_practice1.executor": "Run",
     "Python.dictionary.executor": "Run",
     "Python.dictionary1.executor": "Run",
+    "Python.first_print.executor": "Run",
     "Python.for_loop.executor": "Run",
     "Python.if_elif_else.executor": "Run",
     "Python.input_while.executor": "Run",
     "Python.input_while_01.executor": "Run",
     "Python.list_ro'yhatlar.executor": "Run",
     "Python.return_price_from_function.executor": "Run",
+    "Python.tuples.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -67,6 +76,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -79,7 +89,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-2653e85de345-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.31033.139" />
+        <option value="bundled-python-sdk-1cd77e80b48f-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.32098.74" />
       </set>
     </attachedChunks>
   </component>

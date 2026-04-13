@@ -13,39 +13,39 @@ car0 = {
         
         'yil':'2018',
         
-        'narxi':'15000$'
+        'narxi':'15.000$'
         }
 
 car1 = {
-        'model':'laseeti',
+        'model':'lasetti',
         
         'rang':'qora',
         
         'yil':'2015',
         
-        'narxi':'12000$'
+        'narxi':'12.000$'
         }
 
 car2 = {    
         'model':'matis',
         
-        'rang':'kok',
+        'rang':'blue',
         
         'yil':'2020',
         
-        'narxi':'13000$'
+        'narxi':'13.000$'
         }
 
 cars =[ car0, car1, car2 ]
 
 for car in cars:
 
-    print(f"{car['model'].title()}, "
-          
-          f"{car['rang']} rang, "
-          
-          f"{car['yil']} - yil, "
-          
-          f"{car['narxi']}")
+    print(f'{car['model'].title()} ' 
+
+          f'{car['rang']} rang '
+
+          f'{car['yil']} - yil '
+
+          f'{car['narxi']}')
 
 
