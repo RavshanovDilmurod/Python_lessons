@@ -23,10 +23,5 @@
 #
 # ism_familiya("dilmurod", "ravshanov", birth = 2005)
 
-def cal_age(birth_year, now_year = 2026):
-
-    print(f"Yoshingiz {now_year - birth_year} ekan:")
-
-cal_age(birth_year = 2005)
 
 
